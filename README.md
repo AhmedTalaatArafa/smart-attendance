@@ -55,3 +55,5 @@ pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=Pyth
 pip install detectron2==0.1.2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
 cd detectron2; python setup.py install
 ```
+## [Youtube video](https://www.youtube.com/watch?v=VEXYIAHwERc&t=33s)
+
