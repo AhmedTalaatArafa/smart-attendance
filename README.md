@@ -29,7 +29,7 @@ Detectron2 is Facebook AI Research's next generation software system that implem
 ##### Why Detectron2
 We use detectron2 for checking the number of the students in the class to make sure there's no way to cheat. We achieve that through taking an photo or video stream of a camera(webcam or phone camera) and return number of person instances in this photo.
 
-## Build and Install The entire project
+## Build & Install the entire project
 ### Build and Install Detectron2
 #### Requirements
 - Linux or macOS
