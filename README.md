@@ -45,7 +45,7 @@ We use detectron2 for checking the number of the people in the place to make sur
 - gcc & g++ ≥ 4.9<br/>
 ### After having the above dependencies, run:<br/>
 Download the parameters of the first model:
-Word segmentation parameters:https://drive.google.com/open?id=1bBzPfLZoiu2F6HV346rdDPFcvm9CbvS3
+Word segmentation parameters:https://drive.google.com/open?id=1bBzPfLZoiu2F6HV346rdDPFcvm9CbvS3 <br/>
 Word recognetion parameters :https://s3.us-east-2.amazonaws.com/gluon-ocr/models/handwriting_line8.params
 ```
 # install dependencies: (use cu101 because colab has CUDA 10.1)
