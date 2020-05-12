@@ -23,10 +23,10 @@ Here is the CNN-biLSTM architecture model.
 
 The input lines are sent into the CNN to extract features from similar patterns. These image features are then sent to a sequential learner which are the bidirectional LSTMs which are then sent to the output string that predict the character based on the alphabet with the highest predicted value given by the model.
 
-### Why Detectron2
+### Counting People (Why Detectron2?)
 ![image](https://user-images.githubusercontent.com/29764281/81747879-263ae800-94a9-11ea-9ac8-7d86bb0c7179.png)
 
-We use detectron2 for checking the number of the students in the class to make sure there's no way to cheat. We achieve that through taking an photo or video stream of a camera(webcam or phone camera) and return number of person instances in this photo.
+We use detectron2 for checking the number of the people in the place to make sure there's no way to cheat. We achieve that through taking an photo or video stream of a camera(webcam or phone camera) and return number of person instances in this photo.
 
 ## Build & Install the entire project
 ### Build and Install Detectron2
