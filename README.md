@@ -20,6 +20,7 @@ The pre-processing is a series of operations performed of scanned input image. I
 * Line Segmentation
 line segmentation is done through pre-processing, feature extraction and segmentation. Line Segmentation is used to identify the lines present in the paragraph. This is important as many people have a tendency to not write in a straight line.
 <img src="https://camo.githubusercontent.com/7ccf78e2766e528a14189c31ea3894992c443ad4/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a6a4d6b4f3768792d3166305a464854335332694830512e706e67">
+<img src="https://camo.githubusercontent.com/d61ffdb9d133e770b1bdb3375cd833348cc6cbbf/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313030302f312a4a4a47774c584a4c2d6256377a7366726677383465772e706e67">
 * Handwriting Recognition
 <img src="https://user-images.githubusercontent.com/20180559/67069304-449e6680-f19a-11e9-9846-c25ba51c2a7c.jpg"><br/>
 
