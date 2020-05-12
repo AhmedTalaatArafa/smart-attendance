@@ -17,10 +17,9 @@ We used a scoring function to make a unique score for every name predected from 
 #### Methodology
 * Pre-processing
 The pre-processing is a series of operations performed of scanned input image. It essentially enhances the image rendering for suitable segmentation.<br/>
-* Paragraph Segmentation
-<img src="https://user-images.githubusercontent.com/20180559/67069088-8ed31800-f199-11e9-9ff1-ce93c7a59143.jpg"><br/>
 * Line Segmentation
-<img src="https://user-images.githubusercontent.com/20180559/67069187-eec9be80-f199-11e9-8338-f6254e27afda.jpg"><br/>
+line segmentation is done through pre-processing, feature extraction and segmentation. Line Segmentation is used to identify the lines present in the paragraph. This is important as many people have a tendency to not write in a straight line.
+<img src="https://camo.githubusercontent.com/7ccf78e2766e528a14189c31ea3894992c443ad4/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a6a4d6b4f3768792d3166305a464854335332694830512e706e67">
 * Handwriting Recognition
 <img src="https://user-images.githubusercontent.com/20180559/67069304-449e6680-f19a-11e9-9846-c25ba51c2a7c.jpg"><br/>
 
