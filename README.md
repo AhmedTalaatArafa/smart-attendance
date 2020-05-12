@@ -42,8 +42,8 @@ We use detectron2 for checking the number of the people in the place to make sur
 - [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
 	You can install them together at [pytorch.org](https://pytorch.org) to make sure of this.
 - OpenCV, optional, needed by demo and visualization
-- gcc & g++ ≥ 4.9
-After having the above dependencies, run:<br/>
+- gcc & g++ ≥ 4.9<br/>
+###After having the above dependencies, run:<br/>
 Download the parameters of the first model:
 Word segmentation parameters:https://drive.google.com/open?id=1bBzPfLZoiu2F6HV346rdDPFcvm9CbvS3
 Word recognetion parameters :https://s3.us-east-2.amazonaws.com/gluon-ocr/models/handwriting_line8.params
