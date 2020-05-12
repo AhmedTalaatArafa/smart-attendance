@@ -29,8 +29,13 @@ The input lines are sent into the CNN to extract features from similar patterns.
 We use detectron2 for checking the number of the people in the place to make sure there's no way to cheat. We achieve that through taking an photo or video stream of a camera(webcam or phone camera) and return number of person instances in this photo.
 
 ## Build & Install the entire project
-### Build and Install Detectron2
+### Build and Install
 #### Requirements
+- mxnet
+- pandas
+- matplotlib
+- numpy
+- skimage
 - Linux or macOS
 - Python ≥ 3.6
 - PyTorch ≥ 1.3
@@ -39,6 +44,9 @@ We use detectron2 for checking the number of the people in the place to make sur
 - OpenCV, optional, needed by demo and visualization
 - gcc & g++ ≥ 4.9
 After having the above dependencies, run:
+- Download the parameters of the first model:
+- Word segmentation parameters:https://drive.google.com/open?id=1bBzPfLZoiu2F6HV346rdDPFcvm9CbvS3
+- Word recognetion parameters :https://s3.us-east-2.amazonaws.com/gluon-ocr/models/handwriting_line8.params
 ```
 # install dependencies: (use cu101 because colab has CUDA 10.1)
 pip install -U torch==1.5 torchvision==0.6 -f https://download.pytorch.org/whl/cu101/torch_stable.html 
