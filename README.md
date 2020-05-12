@@ -22,5 +22,29 @@ The input lines are sent into the CNN to extract features from similar patterns.
 
 
 #### 2.Detectron2
-Detectron2 is Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms.</br>
+Detectron2 is Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms.
 
+![image](https://user-images.githubusercontent.com/29764281/81747879-263ae800-94a9-11ea-9ac8-7d86bb0c7179.png)
+
+##### Why Detectron2
+We use detectron2 for checking the number of the students in the class to make sure there's no way to cheat. We achieve that through taking an photo or video stream of a camera(webcam or phone camera) and return number of person instances in this photo.
+
+## Build and Install The entire project
+### Build and Install Detectron2
+#### Requirements
+- Linux or macOS
+- Python ≥ 3.6
+- PyTorch ≥ 1.3
+- [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
+	You can install them together at [pytorch.org](https://pytorch.org) to make sure of this.
+- OpenCV, optional, needed by demo and visualization
+- gcc & g++ ≥ 4.9
+After having the above dependencies, run:
+```
+# install dependencies: (use cu101 because colab has CUDA 10.1)
+pip install -U torch==1.5 torchvision==0.6 -f https://download.pytorch.org/whl/cu101/torch_stable.html 
+pip install cython pyyaml==5.1
+pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+pip install detectron2==0.1.2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
+cd detectron2; python setup.py install
+```
