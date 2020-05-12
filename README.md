@@ -8,12 +8,6 @@ Also user can attach a photo for students to count the actual number of attendan
 ### 1.HandwrittenTextRecognition trained by [I AM Handwriting Dataset](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
 We had a great challenge in this model as the results were not applicable to be used to search in a database or Excel sheet due to missing or changing any letter of the handwritten name or any wrong spaces.<br/>So we did the following :<br/>
 We used a scoring function to make a unique score for every name predected from the model and we combared it with the scores from the Excel sheet to make the matching.<br/>
-#### Dependency
-* mxnet
-* pandas
-* matplotlib
-* numpy
-* skimage
 ## Methodology
 ### Line Segmentation
 line segmentation is done through pre-processing, feature extraction and segmentation. Line Segmentation is used to identify the lines present in the paragraph. This is important as many people have a tendency to not write in a straight line.
@@ -27,4 +21,6 @@ Here is the CNN-biLSTM architecture model.
 The input lines are sent into the CNN to extract features from similar patterns. These image features are then sent to a sequential learner which are the bidirectional LSTMs which are then sent to the output string that predict the character based on the alphabet with the highest predicted value given by the model.
 
 
-#### 2.
+#### 2.Detectron2
+Detectron2 is Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms.</br>
+
